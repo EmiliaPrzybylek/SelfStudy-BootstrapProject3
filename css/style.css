@@ -121,6 +121,11 @@ body {
     font-size: .7rem;
 }
 
+.btn {
+    font-size: .8rem;
+    border: 1px solid #4b4b4b9d;
+}
+
 table {
     font-size: .8rem;
 }
@@ -130,6 +135,7 @@ table {
     font-size: .6rem;
     background-color: transparent;
     color: white;
+    border: 1px solid #4b4b4b9d;
 }
 
 .page-link:hover {
