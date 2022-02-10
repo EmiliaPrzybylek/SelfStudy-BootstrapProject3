@@ -25,7 +25,7 @@ body {
 
 .panel {
     width: 1600px;
-    height: 800px;
+    height: 90%;
     /* border: 1px solid rgba(20, 20, 32, 0.938); */
     border-radius: 15px;
     overflow: hidden;
@@ -62,7 +62,7 @@ body {
 }
 
 .date-box .date {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .menu {
@@ -87,7 +87,7 @@ body {
 
 .menu a:hover {
     background-color: transparent;
-    background-image: linear-gradient(160deg, #7700ff40 0%, rgba(0, 174, 255, 0.251) 100%);
+    background-image: linear-gradient(160deg, rgba(119, 0, 255, 0.251) 0%, rgba(0, 174, 255, 0.251) 100%);
 }
 
 .menu-item i {
@@ -119,4 +119,19 @@ body {
 }
 .statistics p {
     font-size: .7rem;
+}
+
+table {
+    font-size: .8rem;
+}
+
+.page-link {
+    padding: .4rem 1.5em;
+    font-size: .6rem;
+    background-color: transparent;
+    color: white;
+}
+
+.page-link:hover {
+    background-image: linear-gradient(160deg, rgba(119, 0, 255, 0.251) 40%, rgba(0, 174, 255, 0.251) 90%);
 }

@@ -1,95 +1,176 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/8380cfc9ec.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Diamond CMS</title>
 </head>
+
 <body>
-    
+
     <div class="panel">
-            <div class="row m-0 h-100">
+        <div class="row m-0 h-100">
 
-                <section class="col-2 p-0 px-4 panel-left text-white text-center">
-                     <div>
-                         <section class="date-box">
-                             <p class="mb-0 day">Środa</p>
-                             <p class="mb-0 time">12:00</p>
-                             <p class="mb-0 date text-muted">09/02/2022</p>
-                         </section>
-                         <section class="menu">
-                            <a href="index.html" class="active menu-item">
-                                <i class="fas fa-sliders-h"></i>
-                                <p>Strona główna</p>
-                            </a>
-                            <a href="posts.html" class="menu-item">
-                                <i class="far fa-comments"></i>
-                                <p>Posty</p>
-                            </a>
-                            <a href="users.html" class="menu-item">
-                                <i class="fas fa-user-friends"></i>
-                                <p>Użytkownicy</p>
-                            </a>
-                         </section>
-                         <section class="info-box mt-3">
-                            <h3>Diamond CMS</h3>
-                            <p class="text-muted">&copy; Copyright 2022</p>
-                         </section>
-                    </div>
-                </section>
-        
-                <section class="col-10 p-0 panel-right">
-                    <div class="row m-0 h-100">
+            <section class="col-2 p-0 px-4 panel-left text-white text-center">
+                <div>
+                    <section class="date-box">
+                        <p class="mb-0 day">Środa</p>
+                        <p class="mb-0 time">12:00</p>
+                        <p class="mb-0 date text-muted">09/02/2022</p>
+                    </section>
+                    <section class="menu">
+                        <a href="index.html" class="active menu-item">
+                            <i class="fas fa-sliders-h"></i>
+                            <p>Strona główna</p>
+                        </a>
+                        <a href="posts.html" class="menu-item">
+                            <i class="far fa-comments"></i>
+                            <p>Posty</p>
+                        </a>
+                        <a href="users.html" class="menu-item">
+                            <i class="fas fa-user-friends"></i>
+                            <p>Użytkownicy</p>
+                        </a>
+                    </section>
+                    <section class="info-box mt-3">
+                        <h3>Diamond CMS</h3>
+                        <p class="text-muted">&copy; Copyright 2022</p>
+                    </section>
+                </div>
+            </section>
 
-                        <section>
-                            <div class="col-9 mt-5">
-                                <h2 class="text-light text-uppercase text-center fw-bold">Główne statystyki</h2>
-                                <div class="statistics m-4 d-flex justify-content-evenly">
-    
-                                    <div class="statistics-item d-flex flex-column align-items-center">
-                                        <h6 class="py-2 text-uppercase fw-bold">Postów</h6>
-                                        <p>Łącznie: 4500</p>
-                                        <p>W tym miesiącu: 2300</p>
-                                    </div>
-                                    <div class="statistics-item d-flex flex-column align-items-center">
-                                        <h6 class="py-2 text-uppercase fw-bold">Tematów</h6>
-                                        <p>Łącznie: 5500</p>
-                                        <p>W tym miesiącu: 234</p>
-                                    </div>
-                                    <div class="statistics-item d-flex flex-column align-items-center">
-                                        <h6 class="py-2 text-uppercase fw-bold">Użytkowników</h6>
-                                        <p>Łącznie: 12340</p>
-                                        <p>W tym miesiącu: 456</p>
-                                    </div>
+            <section class="col-10 p-0 panel-right">
+                <div class="row m-0 h-100">
 
+                    <section>
+                        <div class="col-9 mt-3">
+
+                            <h2 class="text-light text-uppercase text-center fw-bold">Główne statystyki</h2>
+                            <div class="statistics m-4 d-flex justify-content-evenly">
+
+                                <div class="statistics-item d-flex flex-column align-items-center">
+                                    <h6 class="py-2 text-uppercase fw-bold">Postów</h6>
+                                    <p>Łącznie: 4500</p>
+                                    <p>W tym miesiącu: 2300</p>
                                 </div>
-                            
-                                <div id="chart" class="py-5 text-dark"></div>
-                            </div> 
-                            
-                            
-                        </section>
+                                <div class="statistics-item d-flex flex-column align-items-center">
+                                    <h6 class="py-2 text-uppercase fw-bold">Tematów</h6>
+                                    <p>Łącznie: 5500</p>
+                                    <p>W tym miesiącu: 234</p>
+                                </div>
+                                <div class="statistics-item d-flex flex-column align-items-center">
+                                    <h6 class="py-2 text-uppercase fw-bold">Użytkowników</h6>
+                                    <p>Łącznie: 12340</p>
+                                    <p>W tym miesiącu: 456</p>
+                                </div>
 
-                        
-                        
+                            </div>
 
-                        <div class="col-3 p-4 text-light text-center aside"></div>
-                    </div>
-                        
-                </section>
-            </div>
+                            <div id="chart" class="py-3 text-dark"></div>
+                            
+                            <section>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="d-flex flex-row justify-content-between">
+                                            <h4 class="text-light">Ostatnie posty:</h4>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-outline-light dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Sortuj
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Od najnowszych</a></li>
+                                                    <li><a class="dropdown-item" href="#">Od najstarszych</a></li>
+                                                    <li><a class="dropdown-item" href="#">Najbardziej poczytne</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <table class="table table-transparent text-light">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Temat</th>
+                                                        <th scope="col">Uzytkownik</th>
+                                                        <th scope="col">Data</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>Lorem, ipsum dolor.</td>
+                                                        <td>Otto</td>
+                                                        <td>09/02/2022</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>Lorem ipsum dolor sit amet..</td>
+                                                        <td>Thornton</td>
+                                                        <td>09/02/2022</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Lorem ipsum dolor sit.</td>
+                                                        <td>Thornton</td>
+                                                        <td>09/02/2022</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <nav aria-label="post-nav">
+                                                <ul class="pagination">
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Previous">
+                                                            <span aria-hidden="true">&laquo;</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Next">
+                                                            <span aria-hidden="true">&raquo;</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+
+                    </section>
+
+
+
+
+                    <div class="col-3 p-4 text-light text-center aside"></div>
+                </div>
+
+            </section>
+        </div>
 
     </div>
 
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
