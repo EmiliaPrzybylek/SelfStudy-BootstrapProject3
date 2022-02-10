@@ -20,7 +20,7 @@ body {
 }
 
 .active {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .panel {
@@ -31,16 +31,75 @@ body {
     overflow: hidden;
 }
 
-
 .panel-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgba(86, 86, 107, .938);
-  
 }
 
 .panel-right {
     background-image: linear-gradient(180deg, rgba(86, 86, 107, .938) 0%, rgba(20, 20, 32, .938) 100%); 
 }
 
+.date-box {
+    height: 200px;
+}
+
+.date-box .day {
+    font-size: 1.5rem;
+}
+
+.date-box .time {
+    font-size: 3rem;
+    font-weight: bold;
+    background: #7700FF;
+    background: -webkit-linear-gradient(to bottom right, #7700FF 7%, #00AEFF 83%);
+    background: -moz-linear-gradient(to bottom right, #7700FF 7%, #00AEFF 83%);
+    background: linear-gradient(to bottom right, #7700FF 7%, #00AEFF 83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.date-box .date {
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.menu a:hover {
+    background-color: transparent;
+    background-image: linear-gradient(160deg, rgba(119, 0, 255, 0.251) 0%, rgba(0, 174, 255, 0.251) 100%);
+}
+
+.menu-item i {
+    font-size: 2rem;
+    margin-bottom: .4rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.info-box h3 {
+    font-size: 1.5rem;
+}
