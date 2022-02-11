@@ -121,6 +121,7 @@ body {
     border: 1px solid #4b4b4b9d;
 }
 
+
 table {
     font-size: .8rem;
 }
@@ -142,7 +143,7 @@ table {
     text-shadow: 2px 0 10px rgb(76, 123, 250);
 }
 
-.users-online h5, .users-gender h5 {
+.users-online h5, .users-gender h5, .statistics-date h5 {
     font-size: .9rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -158,3 +159,17 @@ table {
     text-shadow: 2px 0 10px rgb(76, 195, 250);
 }
 
+.date-select .form-select {
+    color: white;
+    background-color: transparent;
+}
+
+.form-select option {
+    background-color: rgba(20, 20, 32, .938);
+    border-radius: 15px;
+}
+
+.stat-box .number{
+    font-size: .8rem;
+   
+}
