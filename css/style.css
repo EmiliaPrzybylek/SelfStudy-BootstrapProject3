@@ -53,12 +53,7 @@ body {
 .date-box .time {
     font-size: 3rem;
     font-weight: bold;
-    background: #7700FF;
-    background: -webkit-linear-gradient(to bottom right, #7700FF 7%, #0051ffb9 83%);
-    background: -moz-linear-gradient(to bottom right, #7700FF 7%, #00aeffe1 83%);
-    background: linear-gradient(to bottom right, #7700FF 7%, #00aeffe8 83%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 0 10px rgb(76, 123, 250);
 }
 
 .date-box .date {
@@ -108,7 +103,7 @@ body {
     display: flex;
     justify-content: center;
     width: 250px;
-    height: 150px;
+    height: 120px;
     color: white;
     border: 1px solid #ddd;
     border-radius: 15px;
@@ -141,3 +136,25 @@ table {
 .page-link:hover {
     background-image: linear-gradient(160deg, rgba(119, 0, 255, 0.251) 40%, rgba(0, 174, 255, 0.251) 90%);
 }
+
+.logo .logo-text {
+    font-size: 2rem;
+    text-shadow: 2px 0 10px rgb(76, 123, 250);
+}
+
+.users-online h5, .users-gender h5 {
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.users-online p, .users-gender .box {
+    font-size: 1.5rem;
+}
+
+.users-gender .fa-female {
+    text-shadow: 2px 0 10px rgb(155, 96, 250);
+}
+.users-gender .fa-male {
+    text-shadow: 2px 0 10px rgb(76, 195, 250);
+}
+
