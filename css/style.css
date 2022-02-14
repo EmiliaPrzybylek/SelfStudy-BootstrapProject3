@@ -178,3 +178,20 @@ table {
     font-size: .8rem;
 }
 
+.posts h3 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.featured-post .btn {
+    font-size: .8rem;
+}
+
+.featured-post .card-title {
+    font-size: 1.5rem;
+}
+
+.featured-post .card-body {
+    font-size: 1.4rem;
+}
