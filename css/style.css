@@ -26,7 +26,6 @@ body {
 .panel {
     width: 1600px;
     height: 90%;
-    /* border: 1px solid rgba(20, 20, 32, 0.938); */
     border-radius: 15px;
     overflow: hidden;
 }
@@ -171,5 +170,4 @@ table {
 
 .stat-box .number{
     font-size: .8rem;
-   
 }
