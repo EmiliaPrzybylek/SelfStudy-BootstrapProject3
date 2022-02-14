@@ -24,8 +24,8 @@ body {
 }
 
 .panel {
-    width: 1600px;
-    height: 90%;
+    width: 1500px;
+    height: 95%;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -39,6 +39,12 @@ body {
 
 .panel-right {
     background-image: linear-gradient(180deg, rgba(86, 86, 107, .938) 0%, rgba(20, 20, 32, .938) 100%); 
+}
+
+.info-top h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .date-box {
@@ -171,3 +177,4 @@ table {
 .stat-box .number{
     font-size: .8rem;
 }
+
