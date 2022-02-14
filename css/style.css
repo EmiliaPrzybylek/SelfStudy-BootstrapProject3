@@ -25,7 +25,7 @@ body {
 
 .panel {
     width: 1500px;
-    height: 95%;
+    height: 90%;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .info-top h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -179,7 +179,7 @@ table {
 }
 
 .posts h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -189,9 +189,33 @@ table {
 }
 
 .featured-post .card-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .featured-post .card-body {
     font-size: 1.4rem;
+}
+
+.featured-post .card-text {
+    font-size: .9rem;
+}
+
+.active-users .card-img {
+    overflow: hidden;
+}
+
+.active-users img {
+    height: 200px;
+    width: 385px;
+    object-fit: cover;
+    opacity: .6;
+    transition: opacity .3s, transform .3s;
+}
+.active-users img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.active-users .card-body, .active-users .btn {
+    font-size: .8rem;
 }
