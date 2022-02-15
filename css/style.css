@@ -223,3 +223,15 @@ table {
 .search-posts p {
     font-size: .7rem;
 }
+
+.post-modal h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.post-modal p, .post-modal .btn {
+    font-size: 1.3rem;
+}
+
+.post-modal .modal-body .btn {
+    text-transform: uppercase;
+}

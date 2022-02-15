@@ -64,7 +64,8 @@
                                 <p class="card-text">
                                     <strong>Treść: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Zobacz post</button>
+                                <button class="btn btn-outline-light" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Zobacz post</button>
                             </div>
                         </div>
                         <div class="col card bg-transparent m-3 p-3 border-white featured-post">
@@ -74,7 +75,8 @@
                                 <p class="card-text">
                                     <strong>Treść: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Zobacz post</button>
+                                <button class="btn btn-outline-light" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Zobacz post</button>
                             </div>
                         </div>
                         <div class="col card bg-transparent m-3 p-3 border-white featured-post">
@@ -84,7 +86,8 @@
                                 <p class="card-text">
                                     <strong>Treść: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Zobacz post</button>
+                                <button class="btn btn-outline-light" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Zobacz post</button>
                             </div>
                         </div>
                     </div>
@@ -140,9 +143,39 @@
                 </section>
             </section>
         </div>
-
     </div>
 
+    <div class="modal fade posts-modal" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h3>Temat</h3>
+              <p>Nazwa tematu</p>
+              <h3>Treść:</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos possimus blanditiis maiores earum molestias ab.</p>
+              <h3>Opcje:</h3>
+              <div>
+                  <button class="btn-outline-success">
+                      <i class="far fa-edit me-2">Edytuj</i>
+                  </button>
+                  <button class="btn-outline-danger">
+                      <i class="far fa-trash-alt me-2">Usuń</i>
+                  </button>
+                  <button class="btn-outline-info">
+                      <i class="fas fa-linkk me-2">Pokaż w temacie</i>
+                  </button>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+              <button type="button" class="btn btn-primary">Zapisz zmiany</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
