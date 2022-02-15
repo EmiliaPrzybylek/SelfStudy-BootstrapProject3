@@ -240,3 +240,7 @@ table {
     width: 90%;
    
 }
+
+.users-modal .modal-item {
+    width: 460px;
+}
