@@ -54,8 +54,8 @@
                     <h1>Posty</h1>
                 </div>
 
-                <section class="p-3">
-                    <h3 class="mb-3">wyróżnione posty</h3>
+                <section>
+                    <h4>wyróżnione posty</h4>
                     <div class="row m-0">
                         <div class="col card bg-transparent m-3 p-3 border-white featured-post">
                             <div class="class-body">
@@ -90,10 +90,10 @@
                     </div>
                 </section>
 
-                <section class="active-users p-2">
-                    <h3 class="mb-2">Najaktywniejsi użytkownicy</h3>
+                <section class="active-users">
+                    <h4>Najaktywniejsi użytkownicy</h4>
                     <div class="card-group">
-                        <div class="card m-4 bg-transparent border-0">
+                        <div class="card m-3 bg-transparent border-0">
                             <div class="card-img">
                                 <img src="/assets/img/posts/user1.jpg" alt="woman" card="card-img-top">
                             </div>
@@ -102,7 +102,7 @@
                                 <button class="btn btn-outline-light ">Pokaż profil</button>
                             </div>
                         </div>
-                        <div class="card m-4 bg-transparent border-0">
+                        <div class="card m-3 bg-transparent border-0">
                             <div class="card-img">
                                 <img src="/assets/img/posts/user2.jpg" alt="woman" card="card-img-top">
                             </div>
@@ -111,7 +111,7 @@
                                 <button class="btn btn-outline-light">Pokaż profil</button>
                             </div>
                         </div>
-                        <div class="card m-4 bg-transparent border-0">
+                        <div class="card m-3 bg-transparent border-0">
                             <div class="card-img">
                                 <img src="/assets/img/posts/user3.jpg" alt="woman" card="card-img-top">
                             </div>
@@ -123,7 +123,21 @@
                     </div>
                 </section>
 
-
+                <section class="search-posts border-top">
+                    <h4 class="mt-3">Znajdź post</h4>
+                    <p>Wybierz kategorię, wpisz tekst i wciśnij przycisk "Szukaj"</p>
+                    <div class="input-group px-5">
+                        <button class="btn btn-outline-secondary dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">Szukaj po</button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Dacie</a></li>
+                          <li><a class="dropdown-item" href="#">Tagu</a></li>
+                          <li><a class="dropdown-item" href="#">Temacie</a></li>
+                          <li><a class="dropdown-item" href="#">Autorze</a></li>
+                        </ul>
+                        <input type="text" class="form-control" aria-label="Text input with 2 dropdown buttons">
+                        <button type="button" class="btn btn-outline-dark text-light">Szukaj</button>
+                      </div>
+                </section>
             </section>
         </div>
 
