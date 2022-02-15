@@ -235,3 +235,8 @@ table {
 .post-modal .modal-body .btn {
     text-transform: uppercase;
 }
+
+.search-users input, .search-users .select-level {
+    width: 90%;
+   
+}
